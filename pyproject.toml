@@ -13,6 +13,7 @@ dependencies = [
     "geopandas",
     "langchain",
     "langchain-community",
+    "langchain-google-genai",
     "langchain-groq",
     "langchain-ollama",
     "langchain-openai",
