@@ -34,7 +34,7 @@ The implementation is inside the `src` folder, the application can be run with *
     Clone the GeoChat repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-repo/geochat.git
+   git clone https://github.com/k4kTuS/DPGeoChat.git
    cd geochat
    ```
 
