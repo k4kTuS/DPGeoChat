@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.python-version
+.venv
+.venv/*
+__pycache__
+__pycache__/*
+secrets.toml
+temp/*
+.vscode/
+*.egg-info/
+build/
+dist/
+cache/
