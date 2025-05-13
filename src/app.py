@@ -148,20 +148,3 @@ if "user" not in st.session_state:
     show_login_form()
 else:
     show_chat_app()
-    with st.chat_message(name="assistant", avatar="🌿"):
-        st.markdown("""
-1. **Query resolution**: 
-   - **Answer A** directly addresses the query by providing specific trends and patterns in tourism for the region, including various types of tourism and external impacts.
-   - **Answer B** provides a general overview of tourism numbers without specific trends or types of tourism, making it less direct in addressing the query.
-
-2. **Data effectiveness**:
-   - **Answer A** effectively uses relevant data by detailing specific tourism activities and trends, such as wine tourism and cultural events, to support its answer.
-   - **Answer B** provides numerical data on guest numbers but lacks context or specific trends, making the data less effective in supporting the answer.
-
-3. **Completeness**:
-   - **Answer A** offers a comprehensive view of the tourism trends, including various aspects like cultural, historical, and sustainable tourism, providing a full solution.
-   - **Answer B** gives a numerical summary of tourism growth and decline but lacks depth in explaining the trends, offering a less complete solution.
-
-Overall, **Answer A** better serves the user's needs by providing a detailed and comprehensive analysis of tourism trends in the region, supported by relevant data and context.
-"""
-)
